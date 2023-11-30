@@ -15,9 +15,11 @@
         Welcome to Blogify
       </h1>
       <p class="mt-6 text-x1 text-white max-w-3x1">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum deleniti
-        incidunt, sunt fugiat commodi maiores impedit officiis dolorum? Quas,
-        officiis.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+        inventore dolores eos, consequatur minus molestiae optio quia ipsa
+        assumenda aliquam, aperiam quibusdam praesentium, ab exercitationem
+        ipsam asperiores excepturi accusamus odit reprehenderit. Ad, repellendus
+        aut. Neque tempora corrupti iste hic deserunt!
       </p>
     </div>
   </div>
