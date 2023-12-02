@@ -9,16 +9,16 @@ definePageMeta({
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <h2
-          class="text-base text-indigo-600 font-semibold tracking-wide uppercase"
+          class="text-base text-center text-indigo-600 font-semibold tracking-wide uppercase"
         >
           About Us
         </h2>
         <p
-          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-green-400 sm:text-4xl"
+          class="mt-2 text-center text-3xl leading-8 font-extrabold tracking-tight text-green-400 sm:text-4xl"
         >
           Our Story
         </p>
-        <p class="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
+        <p class="mt-4 text-center max-w-2xl text-xl text-gray-400 mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad
           incidunt quasi consequuntur. Consectetur, iure blanditiis ratione
           animi, laborum atque iste corrupti fugit nobis facere ex inventore

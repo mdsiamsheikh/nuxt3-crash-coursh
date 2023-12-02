@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <PostCard />
+    <h1>Post Card</h1>
   </div>
 </template>
 
