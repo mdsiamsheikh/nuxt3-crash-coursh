@@ -2,9 +2,7 @@
 
 <template>
   <div>
-    <div v-for="n in 8" :key="n">
-      <PostCard />
-    </div>
+    <h1>Id Page</h1>
   </div>
 </template>
 
