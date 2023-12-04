@@ -1,10 +1,5 @@
 <script setup>
-const post = {
-  id: 123,
-  title: "Top 5 Websites",
-  desciption:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore quo odit inventore vero voluptatem, architecto est cum dolorum quas tenetur amet.",
-};
+defineProps(["id", "title", "body"]);
 
 function trucateDesciption(desciption, wordsCount) {
   if (desciption) {
@@ -21,9 +16,9 @@ function trucateDesciption(desciption, wordsCount) {
 
 <template>
   <div
-    class="bg-gray-600 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row mx-auto py-4 max-w-5x1 mt-3"
+    class="bg-gray-600 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row mx-auto py-4 max-w-[800px] mt-3"
   >
-    <div class="w-full md:w-1/6 P-4">
+    <div class="w-full md:w-1/3 P-4">
       <img
         src="/images/laptop.jpg"
         alt="Post Image"
@@ -31,12 +26,12 @@ function trucateDesciption(desciption, wordsCount) {
       />
     </div>
     <div class="w-full md:w-2/3 px-6 py-4">
-      <h2 class="text-2xl font-bold md-2 text-white">{{ post.title }}</h2>
+      <h2 class="text-2xl font-bold md-2 text-white">{{ title }}</h2>
       <p class="text-white text-base mb-4">
-        {{ trucateDesciption(post.desciption, 10) }}
+        {{ trucateDesciption(body, 40) }}
       </p>
       <NuxtLink
-        :to="'/posts/' + post.id"
+        :to="'/posts/' + id"
         class="bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded"
         >Read More</NuxtLink
       >
