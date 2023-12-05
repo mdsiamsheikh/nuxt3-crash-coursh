@@ -4,7 +4,7 @@
   <div class="relative bg-gray-800">
     <img
       class="w-[100%] w-full object-cover sm:h-72 md:h-96"
-      src="/images/universe.jpg"
+      src="/images/teenage.jpg"
       alt="Hero Image"
     />
     <div class="absolute inset-0 bg-geary-900 bg-opacity-75"></div>

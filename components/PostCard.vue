@@ -20,7 +20,7 @@ function trucateDesciption(desciption, wordsCount) {
   >
     <div class="w-full md:w-1/3 P-4">
       <img
-        src="/images/laptop.jpg"
+        src="/images/teenage1.jpg"
         alt="Post Image"
         class="w-full h-auto object-cover"
       />
