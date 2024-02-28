@@ -36,7 +36,7 @@ yarn dev
 
 # bun
 bun run dev
-```
+
 
 ## Production
 
@@ -54,7 +54,7 @@ yarn build
 
 # bun
 bun run build
-```
+
 
 Locally preview production build:
 
